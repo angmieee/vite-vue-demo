@@ -1,0 +1,31 @@
+{
+  "name": "vite-vue-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"**/*.{vue,js,mjs,ts,d.ts}\" --cache",
+    "format:check": "prettier --check \"**/*.{vue,js,mjs,ts,d.ts}\""
+  },
+  "dependencies": {
+    "axios": "^1.7.3",
+    "element-plus": "^2.7.8",
+    "pinia": "^2.2.0",
+    "vue": "^3.4.31",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.3",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24"
+  }
+}
